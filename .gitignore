@@ -1,13 +1,2 @@
-# .cgp archives
 *.cgp
-/build/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
+*.tar.gz

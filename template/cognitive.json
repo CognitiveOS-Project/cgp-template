@@ -1,0 +1,19 @@
+{
+  "name": "my-skill",
+  "version": "0.1.0",
+  "description": "Description of what this skill does",
+  "author": "Your Name",
+  "license": "MIT",
+  "min_cognitiveos_version": "0.1.0",
+  "dependencies": [],
+  "runtime": {
+    "mcp_servers": [],
+    "memory_mb": 128,
+    "capabilities": ["display", "audio"]
+  },
+  "checksum": {
+    "sha256": "<generated at build time>"
+  },
+  "prompts": ["prompts/main.md"],
+  "tools": ["tools/*"]
+}
