@@ -1,2 +1,5 @@
 *.cgp
 *.tar.gz
+
+# Editor backups
+* 2.*
