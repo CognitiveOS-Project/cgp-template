@@ -2,7 +2,7 @@
   "name": "my-skill",
   "version": "0.1.0",
   "description": "Description of what this skill does",
-  "author": "Your Name",
+  "author": "Jean Machuca",
   "license": "MIT",
   "min_cognitiveos_version": "0.1.0",
   "dependencies": [],
