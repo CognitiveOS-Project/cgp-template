@@ -42,6 +42,14 @@ make install
 | `install` | Install via cpm |
 | `clean` | Remove build artifacts |
 
+## Related
+
+- [CognitiveOS](https://github.com/CognitiveOS-Project/cognitiveos) — main project repository
+- [cognitive-os.org](https://cognitive-os.org) — project website
+- [cpm](https://github.com/CognitiveOS-Project/cpm) — package manager that consumes .cgp packages
+- [Product Specs](https://github.com/CognitiveOS-Project/product-specs) — .cgp format specification
+- [CognitiveOS Project](https://github.com/CognitiveOS-Project) — GitHub organization
+
 ## Author
 
 **Jean Machuca** — [GitHub](https://github.com/jeanmachuca) · [Sponsor](https://github.com/sponsors/jeanmachuca)
