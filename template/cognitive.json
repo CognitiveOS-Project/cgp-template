@@ -1,19 +1,20 @@
 {
   "name": "my-skill",
   "version": "0.1.0",
-  "description": "Description of what this skill does",
-  "author": "Jean Machuca",
+  "description": "What this skill does",
+  "author": "Your Name",
   "license": "MIT",
-  "min_cognitiveos_version": "0.1.0",
-  "dependencies": [],
+  "source": {
+    "repository": "https://github.com/your-org/your-repo",
+    "issues": "https://github.com/your-org/your-repo/issues"
+  },
+  "hardware_requirements": {
+    "min_ram_mb": 128,
+    "min_storage_mb": 50
+  },
   "runtime": {
-    "mcp_servers": [],
-    "memory_mb": 128,
-    "capabilities": ["display", "audio"]
-  },
-  "checksum": {
-    "sha256": "<generated at build time>"
-  },
-  "prompts": ["prompts/main.md"],
-  "tools": ["tools/*"]
+    "system_prompt": "prompts/system.md",
+    "tools_root": "./tools",
+    "mcp_servers": []
+  }
 }
