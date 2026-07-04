@@ -6,9 +6,9 @@ Cognitive Patch (.cgp) developer template — boilerplate for packaging skills w
 
 ```
 template/
-├── cognitive.json        — Package manifest (name, version, deps, author)
+├── cognitive.json        — Package manifest (name, version, description, runtime, etc.)
 ├── prompts/              — Skill system prompts
-│   └── main.txt
+│   └── system.md         — Referenced by runtime.system_prompt
 ├── tools/                — MCP server binaries
 │   └── .gitkeep
 └── weights/              — Optional .gguf model weights
