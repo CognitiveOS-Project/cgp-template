@@ -47,6 +47,7 @@ make install
 - [CognitiveOS](https://github.com/CognitiveOS-Project/cognitiveos) — main project repository
 - [cognitive-os.org](https://cognitive-os.org) — project website
 - [cpm](https://github.com/CognitiveOS-Project/cpm) — package manager that consumes .cgp packages
+- [coginit](https://github.com/CognitiveOS-Project/coginit) — boot manager that orchestrates CognitiveOS services
 - [Product Specs](https://github.com/CognitiveOS-Project/product-specs) — .cgp format specification
 - [CognitiveOS Project](https://github.com/CognitiveOS-Project) — GitHub organization
 
