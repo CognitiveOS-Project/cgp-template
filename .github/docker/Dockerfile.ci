@@ -16,7 +16,7 @@ COPY --from=cpm-builder /usr/local/bin/cpm /usr/local/bin/cpm
 RUN mkdir -p /out
 
 RUN cpm pack
-RUN cpm info com.cognitiveos.packages.my-skill --json --manifest cognitive.json > /out/pkg.json
+RUN PKG_NAME=$(jq -r '.name' cognitive.json) && cpm info "$PKG_NAME" --json --manifest cognitive.json > /out/pkg.json
 RUN cp *.cgp /out/
 
 FROM alpine
